@@ -1,4 +1,3 @@
-import time
 def main(a, b):
     if a-1>b:
         print(b+1, end= " ")
@@ -14,9 +13,7 @@ def second(a, b):
     while a < b:
         a + 1
 
-
-
 a = int(input("Введите первое число: "))
-b = int(input("Введито второе число"))
+b = int(input("Введито второе число:"))
 
 main(a, b)
